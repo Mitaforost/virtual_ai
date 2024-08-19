@@ -1,0 +1,49 @@
+@import "normalize.css";
+@import "libs/fonts";
+@import "base/mixins";
+@import "base/variables";
+
+*,
+input,
+*::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 0;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.h1, h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: normal; }
+.h2, h2 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: normal; }
+p {
+  font-size: 18px;
+  line-height: 160%; }
+.p1 {
+  font-size: 21px;}
+
+.p2 {
+  font-size: 20px; }
+
+.p3 {
+  font-size: 18px; }
+
+.p4 {
+  font-size: 16px; }
+
+@import "blocks/media";

@@ -1,0 +1,7 @@
+@mixin before_dot (){
+  &:before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+  }
+}
