@@ -1,9 +1,0 @@
-# Ignore everything
-/*
-
-# But not the dist directory
-!dist/
-
-# Ignore everything inside dist except for files and directories
-dist/*
-!dist/**/*
